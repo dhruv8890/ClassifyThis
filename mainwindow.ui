@@ -17,7 +17,7 @@
    <widget class="QLineEdit" name="filePathLineEdit">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>230</x>
       <y>60</y>
       <width>351</width>
       <height>21</height>
@@ -27,7 +27,7 @@
    <widget class="QPushButton" name="classifyButton">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>230</x>
       <y>400</y>
       <width>351</width>
       <height>41</height>
@@ -40,7 +40,7 @@
    <widget class="QToolButton" name="loadFileButton">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>590</x>
       <y>60</y>
       <width>24</width>
       <height>21</height>
@@ -53,7 +53,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>170</x>
       <y>50</y>
       <width>111</width>
       <height>41</height>
@@ -66,15 +66,15 @@
    <widget class="QLabel" name="answerLabel">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>30</x>
       <y>450</y>
-      <width>291</width>
+      <width>741</width>
       <height>111</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="text">
@@ -87,7 +87,7 @@
    <widget class="QGraphicsView" name="imageGraphicsView">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>150</x>
       <y>100</y>
       <width>501</width>
       <height>291</height>

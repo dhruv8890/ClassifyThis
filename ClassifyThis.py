@@ -108,7 +108,10 @@ class ClassifyThisApp(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         hr = node_lookup.id_to_string(top_k)
         score = pred[top_k]
 
-        self.answerLabel.setText(hr)
+        answer = "This is a {0} and I'm {1}% sure".format(hr, round(pred[top_k]*100,2))
+        self.answerLabel.setText(answer)
+
+
 
 class NodeLookup(object):
     """Converts int node ID's to human readable labels for classification"""
